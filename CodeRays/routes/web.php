@@ -8,5 +8,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Products route
+
 Route::get('/products', [ProductController::class, 'index']);

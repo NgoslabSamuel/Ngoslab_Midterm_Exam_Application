@@ -16,6 +16,7 @@ class ProductController extends Controller
             ['title' => 'The Lord of the Rings: The Return of the King', 'genre' => 'Fantasy', 'year' => 2003],
         ];
 
-        return view('products.index', compact('products'));
+        // IMPORTANT: This should point to products.blade.blade.php
+        return view('products.blade', compact('products'));
     }
 }
