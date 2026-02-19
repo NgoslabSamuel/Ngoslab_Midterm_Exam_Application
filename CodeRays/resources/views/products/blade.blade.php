@@ -22,9 +22,9 @@
     <h2 style="text-align:center;">Movie List</h2>
     <table>
         <tr>
-            <th>Title</th>
-            <th>Genre</th>
-            <th>Year</th>
+            <th>TITLE</th>
+            <th>GENRE</th>
+            <th>YEAR</th>
         </tr>
         @foreach($products as $product)
             <tr>
